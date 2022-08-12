@@ -1,0 +1,175 @@
+body { 
+    background: url(/img/bg.jpg) no-repeat center center fixed; 
+
+    background-size: cover;
+  }
+.lord{
+    height: 90px; width: auto;
+}
+.h-full{
+    height: 100%;
+}
+.w-full{
+    width: 100%;
+}
+.icon-h{
+    color: #feebe3;
+    padding-top: 20px;
+
+}
+.icon-30{
+    font-size: 30px;
+}
+.icon-margin{
+    margin: 0px 8px;
+}
+.bg-nav{
+    background-color: #335365;
+}
+.menu{
+    text-align: center;
+    color: #FEEBE3;
+    font-size: larger;
+    padding: 15px 0px;
+    transition: 0.4s;
+}
+.menu:hover{
+    background-color: #FEEBE3;
+    color: #335365;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.bg-card1{
+    background-color: #335365;
+    transition: 0.4s;
+    padding-top: 20px;
+} 
+.bg-card1:hover{
+    background-color: #294353;
+    transition: 0.4s;
+    border-radius: 10px;
+    transform: scale(0.95);
+    padding-top: 20px;
+}
+.card-icon{
+    color:white;
+    font-size: 50px;
+}
+.read{
+    text-align: center;
+    color: #FEEBE3;
+    transition: 0.4s;
+    background-color: #21333f;
+    margin: 20px 0px 30px 0px;
+    padding: 10px 10px;
+    border: none;
+}
+.read:hover{
+    background-color: #FEEBE3;
+    color: #335365;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.bg-foot{
+    background-color: #21333f;
+}
+
+.foot-brdr2{
+    border-top: 2px solid #335365 ;
+}
+.text-foot{
+    color: #a6a6a6;
+    transition: 0.5s;
+}
+.text-foot:hover{
+    color: #fdf1eb;
+    transition: 0.5s;
+}
+@media screen and (min-width: 1200px) {
+    .h-text{
+        color: #fff;
+        margin: 30px 100px 10px 50px;
+        font-size: 30px;
+    }
+    .love{
+        font-family:'Tangerine', serif;
+        font-size: 60px;
+    }
+    .car-text{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 0;
+        margin-top: 7%;
+        height: 190px; width: 600px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .h-text{
+        color: #fff;
+        margin: 25px 80px 18px 35px;
+        font-size: 25px;
+    }
+    .love{
+        font-family:'Tangerine', serif;
+        font-size: 50px;
+    }
+    .car-text{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 0;
+        margin-top: 7%;
+        height: 150px; width: 450px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .h-text{
+        color: #fff;
+        margin: 20px 60px 13px 25px;
+        font-size: 20px;
+    }
+    .love{
+        font-family:'Tangerine', serif;
+        font-size: 40px;
+    }
+    .car-text{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 0;
+        margin-top: 7%;
+        height: 120px; width: 350px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .h-text{
+        color: #fff;
+        margin: 10px 30px 8px 10px;
+        font-size: 16px;
+    }
+    .love{
+        font-family:'Tangerine', serif;
+        font-size: 32px;
+    }
+    .car-text{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 0;
+        margin-top: 7%;
+        height: 80px; width: 250px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .foot-brdr1{
+        border-bottom: 2px solid #335365 ;
+    }
+  }
+  @media screen and (min-width: 767px){
+    .foot-brdr1{
+        border-right: 2px solid #335365 ;
+    }
+  }
