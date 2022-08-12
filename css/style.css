@@ -37,7 +37,7 @@ body {
     background-color: #FEEBE3;
     color: #335365;
     font-weight: bold;
-    transition: 0.4s;
+    transition: 0.s;
 }
 .pos-rel{
     position: relative;
@@ -89,6 +89,7 @@ body {
 }
 .text-foot:hover{
     color: #fdf1eb;
+    transform: scale(1.05);
     transition: 0.5s;
 }
 @media screen and (min-width: 1200px) {
